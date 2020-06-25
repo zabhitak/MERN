@@ -16,6 +16,7 @@ mongoose.connect(keys.mongoURI);
 const app = express();
 
 app.use(bodyParser.json());
+
 app.use(
     cookieSession({
         //max age is 30 days time of existence in miliseconds
