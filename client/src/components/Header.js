@@ -34,8 +34,7 @@ class Header extends React.Component {
         <div className="nav-wrapper">
           <Link
             to={this.props.user ? '/surveys' : '/'}
-            className="left brand-logo"
-          >
+            className="left brand-logo">
             FEEDBACK
           </Link>
           <ul className="right">{this.renderContent()}</ul>
